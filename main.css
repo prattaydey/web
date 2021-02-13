@@ -1,0 +1,62 @@
+/*
+  (this is a CSS comment)
+  Team peko: Prattay Dey, Aiden Li
+  IntroCS pd7 sec11
+  HW05 - Stuylin'
+  2021-02-12
+*/
+
+/*
+structure of a CSS ruleset:
+SELECTOR { 0 or more DECLARATIONS }
+where each declaration is of the form
+PROPERTY : VALUE;
+ */
+
+/* this will style all h1 elements with color black, with white border */
+
+h1 {
+    color: black;
+    /* text-shadow: offset-x , offset-y , blur-radius , color  */
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-family: trattatello, fantasy;     /*  if font name has multiple words, put it in ""  */
+    font-size: 48px;
+}
+
+/* this will style all h2 elements with color red */
+h2 {
+    color: red;
+    font-family: Impact, arial, sans-serif;
+    font-size: 30px;
+    padding: 5px
+}
+
+ul {
+  color: white;
+  font-family: Rockwell, monospace;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+
+/* this will make the page background black */
+body {
+    background-color: black; /* bc dark mode 4 teh youngs */
+}
+
+p {
+  color: white;
+  font-family: Rockwell, monospace;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+h3 {
+  color: red;
+  font-family: Impact, arial, sans-serif;
+  font-size: 24px;
+  padding: 5px
+}
+  
